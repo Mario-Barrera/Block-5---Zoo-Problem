@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+    
+/* I used the span tag to reduce the text size of these content: (left), (center), (right) */
+span {
+    font-size: 12px;     
+}
+
+/* Style all <a> tags and help them stand out better from the paragraph content*/
+a {
+      color: black; /* Set the text color */
+      font-weight: bold; /* Make the text bold */
+}
+
+/* assigned each unordered list a class to help with sizing text */
+ul.bear-list li,        
+ul.giraffe-list li,
+ul.lion-list li,
+ul.monkey-list li,
+ul.alligator-list {
+    font-size: 20px;
+}
+
+body {
+      background-color: green;    /* I thing green naturally complements the webpage theme */
+      color: white;     /* easier readability */
+}
+
+/* my preference with font types and text size for each paragraph */
+/* listed three font-family types as a fallback */
+p {
+    font-family: Georgia, Merriweather, Palatino;
+    font-size: 15px;
+}
+
+#extra-info {
+    border: 2px solid white;	/* I prefered a stronger looking border */
+    font-size: 19px;		/* text size increased for readability */
+    color: white;			/* color changed for readability */
+}    
